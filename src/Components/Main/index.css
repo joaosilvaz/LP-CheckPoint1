@@ -1,0 +1,342 @@
+.container{
+    padding: 32px 60px;
+}
+
+.header-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header-main h1{
+    font-family: "Krona One", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.ratings{
+    display: flex;
+    gap: 64px;
+}
+
+.avaliacao{
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 50px; */
+}
+
+.avaliacao h2{
+    font-family: "Krona One", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.nota{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    gap: 10px;
+    font-weight: 400;
+}
+
+.nota p{
+    font-family: "Krona One", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.nota span{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Krona One", sans-serifs;
+    color: #787B81;
+}
+
+
+.background-main{
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+.background-main::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.76); 
+    z-index: 1;
+}
+
+.background-main .container,
+.background-main .container-image {
+    position: relative;
+    z-index: 2; 
+}
+
+.container-image {
+    padding: 0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px; 
+}
+
+.image1 img {
+    display: flex;
+    max-width: 433px;
+    width: 100%;
+    height: 507px; 
+    object-fit: cover;
+}
+
+.image2 img{
+    display: flex;
+    max-width: 890px;
+    width: 100%;
+    height: 507px; 
+    object-fit: cover; 
+    
+}
+
+@media (min-width: 960px) and (max-width: 1380px){
+    .header-main h1 {
+        font-size: 28px;
+    }
+
+    .avaliacao h2{
+        font-family: "Krona One", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+
+    .image1 img {
+        max-width: 370px;
+        width: 100%;
+        height: 407px;
+    }
+
+    .image2 img {
+        max-width: 800px;
+        width: 100%;
+        height: 407px;
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1145px){
+    .header-main h1 {
+        font-size: 25px;
+    }
+}
+
+
+@media (min-width: 983px) and (max-width: 1237px){
+    .header-main h1 {
+        font-size: 21px;
+    }
+
+    .avaliacao h2{
+        font-family: "Krona One", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+
+    .nota p{
+        font-family: "Krona One", sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+    
+    .nota span{
+        font-size: 10px;
+        font-weight: 400;
+        font-family: "Krona One", sans-serifs;
+        color: #787B81;
+    }
+    
+}
+
+@media (min-width: 983px) and (max-width: 1200px){
+    .image1 img {
+        max-width: 400px;
+        width: 100%;
+        height: 300px; 
+    }
+    
+    .image2 img {
+        max-width: 900px;
+        width: 100%;
+        height: 300px; 
+    }                   
+}
+
+
+@media (min-width: 655px) and (max-width: 983px) {
+    .header-main h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .ratings {
+        justify-content: center;
+        flex-direction: row;
+        margin-top: 20px;
+        gap: 64px;
+    }
+
+    .container-image {
+        flex-direction: row;  
+        gap: 5px;
+    }
+
+    .avaliacao h2{
+        font-family: "Krona One", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+
+    .image1 img {
+        max-width: 400px;
+        width: 100%;
+        height: 300px; 
+    }
+
+    .image2 img {
+        max-width: 900px;
+        width: 100%;
+        height: 300px; 
+    }
+
+}
+
+@media (min-width: 500px) and (max-width: 788px) {
+    .container-image {
+        padding: 0px 50px;
+        flex-direction: column;  
+        gap: 5px;
+    }
+
+    .image1 img {
+        max-width: 500px;
+        width: 100%;
+        height: auto; 
+    }
+
+    .image2 img {
+        max-width: 500px;
+        width: 100%;
+        height: auto; 
+    }
+
+    .avaliacao h2{
+        font-family: "Krona One", sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        color: #ffffff;
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 500px) and (max-width: 655px) {
+    .header-main h1 {
+        font-size: 21px;
+        text-align: center;
+    }
+
+    .ratings {
+        justify-content: center;
+        flex-direction: row;
+        margin-top: 20px;
+        gap: 64px;
+    }
+
+    .avaliacao h2{
+        font-family: "Krona One", sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+
+
+    .nota p{
+        font-family: "Krona One", sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+    
+    .nota span{
+        font-size: 10px;
+        font-weight: 400;
+        font-family: "Krona One", sans-serifs;
+        color: #787B81;
+    }
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .header-main h1 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .ratings {
+        justify-content: center;
+        flex-direction: row;
+        margin-top: 20px;
+        gap: 64px;
+    }
+
+    .container-image {
+        padding: 0px 50px;
+        flex-direction: column;  
+        gap: 5px;
+    }
+
+    .avaliacao h2{
+        font-family: "Krona One", sans-serif;
+        font-size: 12px;
+        text-align: center;
+        font-weight: 400;
+        color: #ffffff;
+    }
+
+    .image1 img {
+        max-width: 400px;
+        width: 100%;
+        height: auto; 
+    }
+
+    .image2 img {
+        max-width: 700px;
+        width: 100%;
+        height: auto; 
+    }
+
+    .nota p{
+        font-family: "Krona One", sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+    
+    .nota span{
+        font-size: 10px;
+        font-weight: 400;
+        font-family: "Krona One", sans-serifs;
+        color: #787B81;
+    }
+    
+}

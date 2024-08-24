@@ -1,0 +1,226 @@
+header{
+    background-color: #0E1015;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    transition: 0.3s ease;    
+}
+
+.menu:hover{
+    color: #c6c6c6;
+}
+
+.pesquisa{
+    display: flex;
+    align-items: center;
+    background-color: #1b1d23;
+    border-radius: 8px;
+    max-width: 600px;
+    width: 100%;
+    padding: 16px 32px;
+    gap: 32px;
+}
+
+.pesquisa input{
+    background: none;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    font-family: "Karla", sans-serif;
+    color: #ffffff;
+}
+
+.login{
+    background-color: #d5224e;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 16px 64px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Krona One", sans-serif;
+    transition: 0.3s ease;
+}
+
+.login:hover{
+    color: #ffffff;
+    background-color: #a12544;
+}
+
+@media (min-width: 1079px) and (max-width: 1333px) {
+    .container{
+        justify-content: space-between;
+        gap: 40px;
+    }
+
+    .header-main h1{
+        font-size: 28px;
+    }   
+    
+    .menu{
+        gap: 10px;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 20px;
+        transition: 0.3s ease;    
+    }
+    
+    .menu:hover{
+        color: #c6c6c6;
+    }
+    
+    .pesquisa{
+        background-color: #1b1d23;
+        border-radius: 8px;
+        max-width: 500px;
+        width: 100%;
+        padding: 16px 22px;
+        gap: 22px;
+    }
+    
+    .pesquisa input{
+        background: none;
+        border: none;
+        font-size: 20px;
+        outline: none;
+        font-family: "Karla", sans-serif;
+        color: #ffffff;
+    }
+    
+    .login{
+        background-color: #d5224e;
+        color: #ffffff;
+        border-radius: 8px;
+        padding: 16px 44px;
+        font-size: 20px;
+        text-decoration: none;
+        font-family: "Krona One", sans-serif;
+        transition: 0.3s ease;
+    }
+    
+    .login:hover{
+        color: #ffffff;
+        background-color: #a12544;
+    }
+    
+}
+
+
+@media (min-width: 983px) and (max-width:1079px){
+    .container{
+        justify-content: space-between;
+        gap: 40px;
+    }
+
+    .header-main h1{
+        font-size: 28px;
+    }   
+    
+    .menu{
+        gap: 10px;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 19px;
+        transition: 0.3s ease;    
+    }
+    
+    .menu:hover{
+        color: #c6c6c6;
+    }
+    
+    .pesquisa{
+        background-color: #1b1d23;
+        border-radius: 8px;
+        max-width: 250px;
+        width: 100%;
+        padding: 16px 22px;
+        gap: 22px;
+    }
+    
+    .pesquisa input{
+        background: none;
+        border: none;
+        font-size: 20px;
+        outline: none;
+        font-family: "Karla", sans-serif;
+        color: #ffffff;
+    }
+    
+    .login{
+        background-color: #d5224e;
+        color: #ffffff;
+        border-radius: 8px;
+        padding: 16px 35px;
+        font-size: 17px;
+        text-decoration: none;
+        font-family: "Krona One", sans-serif;
+        transition: 0.3s ease;
+    }
+    
+    .login:hover{
+        color: #ffffff;
+        background-color: #a12544;
+    }
+    
+} 
+
+
+@media (max-width: 983px) {
+    .container {
+        flex-direction: column;
+        align-items: stretch; 
+        gap: 10px;
+    }
+
+    .logo {
+        margin-bottom: 20px;  
+        text-align: center; 
+    }
+
+    .menu{
+        font-size: 20px;
+    }
+
+    .pesquisa {
+        padding: 12px 20px;
+        max-width: 50pc;
+        width: 100%; 
+        gap: 20px; 
+    }
+
+    .login {
+        gap: 20px;
+        padding: 12px 20px;
+        max-width: 50pc;  
+        width: 100%; 
+        text-align: center; 
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .menu{
+        align-items: center;
+        font-size: 16px;
+    }
+
+    .menu img{
+        max-width: 23px;
+        width: 100%;
+    }
+    
+    .login{
+        font-size: 16px;
+    }
+}
