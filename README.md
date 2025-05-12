@@ -24,9 +24,3 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 A aplicação é totalmente responsiva, adaptando-se para diferentes tamanhos de tela, incluindo dispositivos móveis e tablets.
 
 ---
-
-## 📂 Como executar
-
-```bash
-# Clone o repositório
-git clone https://github.com/se
