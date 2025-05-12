@@ -4,7 +4,7 @@ Landing page inspirada no universo do jogo *God of War: Ragnarok*, desenvolvida 
 
 ## 📸 Preview
 
-> [Coloque aqui um link para o deploy (Vercel, Netlify, etc) ou uma imagem da interface]
+> https://lp-check-point1.vercel.app/
 
 ---
 
